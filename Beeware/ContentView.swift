@@ -4,7 +4,6 @@
 //
 //  Created by Scholar on 7/31/23.
 //
-
 import SwiftUI
 
 struct ContentView: View {
@@ -34,7 +33,7 @@ struct ContentView: View {
                         Image("bearSign").resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
                             .cornerRadius(10)
-
+                        
                     }
                 }
                 Spacer()
@@ -44,22 +43,25 @@ struct ContentView: View {
                                 NavigationLink(destination: Handbook()) {
                                     Image("Handbook")
                                         .resizable()
-                                .aspectRatio(contentMode: .fit)
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 100, height: 100)
                                         .navigationBarTitleDisplayMode(.inline)
                                 }
-                                NavigationLink(destination: Map()) {
+                                NavigationLink(destination: mapMap()) {
                                     Image("Map")
                                         .resizable()
-                                .aspectRatio(contentMode: .fit)
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 100, height: 100)
                                     
                                 }
                                 NavigationLink(destination: Games()) {
                                     Image("Games")
                                         .resizable()
-                                .aspectRatio(contentMode: .fit)
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 100, height: 100)
                                         .navigationBarTitleDisplayMode(.inline)
                                 }
-                
+                                
                             }
                         }
                     }

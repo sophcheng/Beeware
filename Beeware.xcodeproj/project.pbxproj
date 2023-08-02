@@ -15,8 +15,8 @@
 		BD337A8F2A784025006735DC /* BeewareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD337A8E2A784025006735DC /* BeewareUITests.swift */; };
 		BD337A912A784025006735DC /* BeewareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD337A902A784025006735DC /* BeewareUITestsLaunchTests.swift */; };
 		BD7BF0ED2A7983E70004A88A /* Handbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BF0EC2A7983E70004A88A /* Handbook.swift */; };
-		BD7BF0EF2A7991960004A88A /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BF0EE2A7991960004A88A /* Map.swift */; };
 		BD7BF0F12A7991A50004A88A /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BF0F02A7991A50004A88A /* Games.swift */; };
+		BD9A6BCF2A7ACAA0004D4280 /* mapMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A6BCE2A7ACAA0004D4280 /* mapMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		BD337A8E2A784025006735DC /* BeewareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeewareUITests.swift; sourceTree = "<group>"; };
 		BD337A902A784025006735DC /* BeewareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeewareUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BD7BF0EC2A7983E70004A88A /* Handbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handbook.swift; sourceTree = "<group>"; };
-		BD7BF0EE2A7991960004A88A /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		BD7BF0F02A7991A50004A88A /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		BD9A6BCE2A7ACAA0004D4280 /* mapMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 				BD337A722A784023006735DC /* BeewareApp.swift */,
 				BD337A742A784023006735DC /* ContentView.swift */,
 				BD7BF0EC2A7983E70004A88A /* Handbook.swift */,
-				BD7BF0EE2A7991960004A88A /* Map.swift */,
+				BD9A6BCE2A7ACAA0004D4280 /* mapMap.swift */,
 				BD7BF0F02A7991A50004A88A /* Games.swift */,
 				BD337A762A784024006735DC /* Assets.xcassets */,
 				BD337A782A784024006735DC /* Beeware.entitlements */,
@@ -270,7 +270,7 @@
 			files = (
 				BD337A752A784023006735DC /* ContentView.swift in Sources */,
 				BD337A732A784023006735DC /* BeewareApp.swift in Sources */,
-				BD7BF0EF2A7991960004A88A /* Map.swift in Sources */,
+				BD9A6BCF2A7ACAA0004D4280 /* mapMap.swift in Sources */,
 				BD7BF0F12A7991A50004A88A /* Games.swift in Sources */,
 				BD7BF0ED2A7983E70004A88A /* Handbook.swift in Sources */,
 			);
