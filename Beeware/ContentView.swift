@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    func dailyAnimal(){
+        print("Daily animal clicked!")
+    }
     var body: some View {
         NavigationStack{
             VStack {
@@ -20,32 +23,43 @@ struct ContentView: View {
                     .foregroundColor(Color(hue: 1.0, saturation: 0.45, brightness: 0.57))
                     .fontWeight(.black)
                     .fontDesign(.rounded)
+                    .font(.title)
+                ZStack{
+                    Image("homeP")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                        .cornerRadius(10)
+                        .shadow(radius: 10)
+                    Button(action: {dailyAnimal()}){
+                        Image("bearSign").resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .cornerRadius(10)
+
+                    }
+                }
                 Spacer()
                     .toolbar {
                         ToolbarItemGroup(placement: .status){
                             HStack(alignment: .center){
                                 NavigationLink(destination: Handbook()) {
-                                    Image(systemName:"leaf.fill")
-                                        .foregroundColor(Color.green)
-                                    Text("Handbook")
-                                        .fontWeight(.medium)
-                                        .foregroundColor(Color(hue: 1.0, saturation: 0.45, brightness: 0.57))
+                                    Image("Handbook")
+                                        .resizable()
+                                .aspectRatio(contentMode: .fit)
                                         .navigationBarTitleDisplayMode(.inline)
                                 }
-                                NavigationLink(destination: Handbook()) {
-                                    Image(systemName:"leaf.fill")
-                                        .foregroundColor(Color.green)
-                                    Text("Map")
-                                        .fontWeight(.medium)
-                                        .foregroundColor(Color(hue: 1.0, saturation: 0.45, brightness: 0.57))
+                                NavigationLink(destination: Map()) {
+                                    Image("Map")
+                                        .resizable()
+                                .aspectRatio(contentMode: .fit)
                                     
                                 }
-                                NavigationLink(destination: Handbook()) {
-                                    Image(systemName:"leaf.fill")
-                                        .foregroundColor(Color.green)
-                                    Text("Games")
-                                        .fontWeight(.medium)
-                                        .foregroundColor(Color(hue: 1.0, saturation: 0.45, brightness: 0.57))}
+                                NavigationLink(destination: Games()) {
+                                    Image("Games")
+                                        .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                        .navigationBarTitleDisplayMode(.inline)
+                                }
+                
                             }
                         }
                     }
