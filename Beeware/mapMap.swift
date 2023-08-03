@@ -13,37 +13,57 @@ struct mapMap: View {
     @State var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 40.7,
                                        longitude: -74),
-        span: MKCoordinateSpan(latitudeDelta: 40,
-                               longitudeDelta: 40)
+        span: MKCoordinateSpan(latitudeDelta: 20,
+                               longitudeDelta: 20)
     )
     var body: some View {
         NavigationView{
             VStack {
+                Text("M A P")
+                    .foregroundColor(Color(hue: 1.0, saturation: 0.45, brightness: 0.57))
+                    .fontWeight(.black)
+                    .fontDesign(.rounded)
+                    .font(.title)
                 Map(coordinateRegion: $region)
-                    .ignoresSafeArea()
+                    .frame(height: 300)
                     .cornerRadius(15)
                     .padding()
-            
-                Button(action:{
-                    var newLat = lat - 15.0
-                    var newLong = long - 15.0
-                    withAnimation{
-                        region.span = MKCoordinateSpan(
-                            latitudeDelta: newLat,
-                            longitudeDelta: newLong
-                        )
-                    }
-                }, label: {
-                    Text("Zoom In")
-                        .font(.title)
-                        .foregroundColor(Color.white)
-                        .fontDesign(.rounded)
-                        .fontWeight(.black)
-                        .frame(width: 250, height: 100, alignment: .center)
-                        .background(Color.green)
-                        .cornerRadius(15)
-                        .padding()
-                })
+                HStack{
+                    Button(action:{
+                        withAnimation{
+                            region.span.latitudeDelta *= 0.2
+                            region.span.longitudeDelta *= 0.2
+                        }
+                    }, label: {
+                        Image("zin")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .padding(10)
+                    })
+                    Button(action:{
+                        withAnimation{
+                            region.span.latitudeDelta *= 2
+                            region.span.longitudeDelta *= 2
+                        }
+                    }, label: {
+                        Image("zout")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                        .padding(10)})
+                    Button(action:{
+                        withAnimation{
+                            region.center.latitude = 40.7
+                            region.center.longitude = -74
+                            region.span.latitudeDelta = 2
+                            region.span.longitudeDelta = 2
+                            //maybe make customizable?
+                        }
+                    }, label: {
+                        Image("recen")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                        .padding(10)})
+                }
             }
         }
     }

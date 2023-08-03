@@ -14,15 +14,16 @@ struct ContentView: View {
         NavigationStack{
             VStack {
                 Spacer()
-                Image(systemName: "hexagon.fill")
-                    .imageScale(.large)
-                    .foregroundColor(Color.yellow)
-                    .padding(1)
-                Text("B E E W A R E")
+                Image("bware")
+                    .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                        .padding()
+                        .frame(height: 130)
+                /*Text("B E E W A R E")
                     .foregroundColor(Color(hue: 1.0, saturation: 0.45, brightness: 0.57))
                     .fontWeight(.black)
                     .fontDesign(.rounded)
-                    .font(.title)
+                    .font(.title)*/
                 ZStack{
                     Image("homeP")
                         .resizable(resizingMode: .stretch)
@@ -61,10 +62,10 @@ struct ContentView: View {
                                         .frame(width: 100, height: 100)
                                         .navigationBarTitleDisplayMode(.inline)
                                 }
-                                
                             }
                         }
                     }
+                
             }
         }
     }
