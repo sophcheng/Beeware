@@ -25,7 +25,7 @@ struct mapMap: View {
                     .fontDesign(.rounded)
                     .font(.title)
                 Map(coordinateRegion: $region)
-                    .frame(height: 300)
+                    .frame(height: 500)
                     .cornerRadius(15)
                     .padding()
                 HStack{
