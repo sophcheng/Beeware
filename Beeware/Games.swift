@@ -21,6 +21,8 @@ struct Games: View {
                         .fontDesign(.rounded)
                         .font(.title)
                         .shadow(color: Color.white, radius: 15)
+                        /*.padding(90)
+                    Spacer()*/
                     Text("\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n")
                 }
                 NavigationLink(destination: ContentView()) {
@@ -47,7 +49,7 @@ struct Games: View {
                         }
                         Spacer()
                         NavigationLink(destination: game2()) {
-                            Image("test")
+                            Image("g1")
                                 .resizable(resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 100.0, height: 100.0)
@@ -57,14 +59,14 @@ struct Games: View {
                                     HStack{
                                         Spacer()
                                         NavigationLink(destination: game3()) {
-                                            Image("test")
+                                            Image("g1")
                                                 .resizable(resizingMode: .stretch)
                                                 .aspectRatio(contentMode: .fit)
                                                 .frame(width: 100.0, height: 100.0)
                                         }
                                         Spacer()
                                         NavigationLink(destination: game4()) {
-                                            Image("test")
+                                            Image("g1")
                                                 .resizable(resizingMode: .stretch)
                                                 .aspectRatio(contentMode: .fit)
                                             .frame(width: 100.0, height: 100.0)}

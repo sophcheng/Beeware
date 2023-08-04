@@ -15,9 +15,9 @@ struct Handbook: View {
                     .resizable(resizingMode: .stretch)
                     .ignoresSafeArea()
                 ScrollView {
-                  
-                    VStack {
                     
+                    VStack {
+                        
                         Group {
                             Text("H A N D B O O K")
                                 .font(.title)
@@ -92,98 +92,105 @@ struct Handbook: View {
                                     .padding(.trailing, 0.0)
                             }
                         }
-                        Text("Black Bear                            Ticks")
-                            .font(.headline)
-                            .multilineTextAlignment(.center)
-                            .padding([.bottom, .trailing], 30.0)
-                            .foregroundColor(Color(hue: 0.066, saturation: 0.624, brightness: 0.359))
-                        
-                        NavigationLink(destination: DolphinView()) {
-                            Image("dolphinn")
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 150.0)
-                                .cornerRadius(15)
-                                .padding(.trailing, 25.0)
-                            NavigationLink(destination: BeaverView()) {
-                                Image("beaver")
-                                    .resizable(resizingMode: .stretch)
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width: 150.0)
-                                    .cornerRadius(15)
-                                    .padding(.bottom, 0.0)
-                            }
-                        }
-                        Text("Dolphin                              Beaver")
-                            .font(.headline)
-                            .multilineTextAlignment(.center)
-                            .padding([.leading, .bottom], 0.0)
-                            .foregroundColor(Color(hue: 0.066, saturation: 0.624, brightness: 0.359))
-                        
-                        
-                        NavigationLink(destination: StinkView()) {
-                            Image("stink")
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 150.0)
-                                .cornerRadius(15)
-                                .padding(.trailing, 25.0)
+                        Group {
+                            Text("Black Bear                            Ticks")
+                                .font(.headline)
+                                .multilineTextAlignment(.center)
+                                .padding([.bottom, .trailing], 30.0)
+                                .foregroundColor(Color(hue: 0.066, saturation: 0.624, brightness: 0.359))
                             
-                            NavigationLink(destination: BeetleView()) {
-                                Image("beetle")
+                            NavigationLink(destination: DolphinView()) {
+                                Image("dolphinn")
                                     .resizable(resizingMode: .stretch)
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: 150.0)
                                     .cornerRadius(15)
-                                    .padding(.bottom, 0.0)
+                                    .padding(.trailing, 25.0)
+                                NavigationLink(destination: BeaverView()) {
+                                    Image("beaver")
+                                        .resizable(resizingMode: .stretch)
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 150.0)
+                                        .cornerRadius(15)
+                                        .padding(.bottom, 0.0)
+                                }
                             }
+                            Text("Dolphin                              Beaver")
+                                .font(.headline)
+                                .multilineTextAlignment(.center)
+                                .padding([.leading, .bottom], 0.0)
+                                .foregroundColor(Color(hue: 0.066, saturation: 0.624, brightness: 0.359))
+                            
+                            
+                            NavigationLink(destination: StinkView()) {
+                                Image("stink")
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0)
+                                    .cornerRadius(15)
+                                    .padding(.trailing, 25.0)
+                                
+                                NavigationLink(destination: BeetleView()) {
+                                    Image("beetle")
+                                        .resizable(resizingMode: .stretch)
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 150.0)
+                                        .cornerRadius(15)
+                                        .padding(.bottom, 0.0)
+                                }
+                            }
+                            
+                            Text("Stink Bug           Asian Long-Horned Beetle")
+                                .font(.headline)
+                                .multilineTextAlignment(.center)
+                                .padding([.leading, .bottom], 55.0)
+                                .foregroundColor(Color(hue: 0.066, saturation: 0.624, brightness: 0.359))
+                            
+                            NavigationLink(destination: BrownBatView()) {
+                                Image("bbat")
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0)
+                                    .cornerRadius(15)
+                                    .padding(.trailing, 25.0)
+                                NavigationLink(destination: CottontailView()) {
+                                    Image("bunny1")
+                                        .resizable(resizingMode: .stretch)
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 150.0)
+                                        .cornerRadius(15)
+                                        .padding(0.0)
+                                }
+                            }
+                            Text("Brown Bat           New England Cottontail")
+                                .font(.headline)
+                                .multilineTextAlignment(.center)
+                                .padding([.leading, .bottom], 55.0)
+                                .foregroundColor(Color(hue: 0.066, saturation: 0.624, brightness: 0.359))
+                            NavigationLink(destination: BobcatView()) {
+                                Image("bobcat")
+                                    .resizable(resizingMode: .stretch)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 150.0)
+                                    .cornerRadius(15)
+                                    .padding(.trailing, 25.0)
+                                NavigationLink(destination: SkunkView()) {
+                                    Image("skunk 1")
+                                        .resizable(resizingMode: .stretch)
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 150.0)
+                                        .cornerRadius(15)
+                                        .padding(0.0)
+                                }
+                            }
+                            Text("Bobcat                                 Skunk")
+                                .font(.headline)
+                                .multilineTextAlignment(.center)
+                                .padding(.trailing, 0.0)
+                                .foregroundColor(Color(hue: 0.066, saturation: 0.624, brightness: 0.359))
                         }
-
-                        Text("Stink Bug           Asian Long-Horned Beetle")
-                            .font(.headline)
-                            .multilineTextAlignment(.center)
-                            .padding([.leading, .bottom], 55.0)
-                            .foregroundColor(Color(hue: 0.066, saturation: 0.624, brightness: 0.359))
                         
-                        NavigationLink(destination: BrownBatView()) {
-                            Image("bbat")
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 150.0)
-                                .cornerRadius(15)
-                                .padding(.trailing, 25.0)
-                            NavigationLink(destination: CottontailView()) {
-                                Image("bunny1")
-                                    .resizable(resizingMode: .stretch)
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width: 150.0)
-                                    .cornerRadius(15)
-                                    .padding(0.0)
-                            }
-                        }
-                        Text("Brown Bat           New England Cottontail")
-                            .font(.headline)
-                            .multilineTextAlignment(.center)
-                            .padding([.leading, .bottom], 55.0)
-                            .foregroundColor(Color(hue: 0.066, saturation: 0.624, brightness: 0.359))
-                        NavigationLink(destination: BobcatView()) {
-                            Image("bobcat")
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 150.0)
-                                .cornerRadius(15)
-                                .padding(.trailing, 25.0)
-                            NavigationLink(destination: SkunkView()) {
-                                Image("skunk 1")
-                                    .resizable(resizingMode: .stretch)
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width: 150.0)
-                                    .cornerRadius(15)
-                                    .padding(0.0)
-                            }
-                        }
                     }
-                    
                 }
             }
         }

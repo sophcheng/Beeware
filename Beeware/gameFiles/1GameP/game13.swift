@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-var question4 = "Which animal can fly?"
+var question4 = "What is the NY State Animal?"
 
 
 struct game13: View {
@@ -37,17 +37,14 @@ struct game13: View {
                         .multilineTextAlignment(.center)
                     
                     
-      //please add the questions and rearrange the orders of the answers!
-                    
-                    
                     Button(action: {print("(≧◡≦)"); answerName = "(≧◡≦)"})
-                    {Text("Little Brown Bat")
+                    {Text("Beaver")
                         .foregroundColor(Color.white)}
                     .frame(width: 150.0, height: 70.0)
                     .background(Color(hue: 0.369, saturation: 0.254, brightness: 0.529))
                     
                     Button(action: {print("(˚ ˃̣̣̥⌓˂̣̣̥ )"); answerName = "(˚ ˃̣̣̥⌓˂̣̣̥ )"})
-                    {Text("Raccoon")
+                    {Text("Eastern Blue Bird")
                         .foregroundColor(Color.white)}
                     .frame(width: 150.0, height: 70.0)
                     .background(Color(hue: 0.369, saturation: 0.254, brightness: 0.529))

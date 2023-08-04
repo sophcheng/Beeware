@@ -16,29 +16,60 @@
 		BD337A912A784025006735DC /* BeewareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD337A902A784025006735DC /* BeewareUITestsLaunchTests.swift */; };
 		BD7BF0ED2A7983E70004A88A /* Handbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BF0EC2A7983E70004A88A /* Handbook.swift */; };
 		BD7BF0F12A7991A50004A88A /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BF0F02A7991A50004A88A /* Games.swift */; };
+		BD8EC2892A7D5094007E4DA9 /* game13.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8EC2842A7D5094007E4DA9 /* game13.swift */; };
+		BD8EC28A2A7D5094007E4DA9 /* game11.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8EC2852A7D5094007E4DA9 /* game11.swift */; };
+		BD8EC28B2A7D5094007E4DA9 /* game12.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8EC2862A7D5094007E4DA9 /* game12.swift */; };
+		BD8EC28C2A7D5094007E4DA9 /* game14.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8EC2872A7D5094007E4DA9 /* game14.swift */; };
+		BD8EC28D2A7D5094007E4DA9 /* game1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8EC2882A7D5094007E4DA9 /* game1.swift */; };
 		BD9A6BCF2A7ACAA0004D4280 /* mapMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A6BCE2A7ACAA0004D4280 /* mapMap.swift */; };
-		E469E9A22A7C5D6F00D85CDB /* game1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9A12A7C5D6F00D85CDB /* game1.swift */; };
-		E469E9A42A7C5D7800D85CDB /* game11.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9A32A7C5D7800D85CDB /* game11.swift */; };
-		E469E9A62A7C5D7F00D85CDB /* game12.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9A52A7C5D7F00D85CDB /* game12.swift */; };
-		E469E9A82A7C5D8600D85CDB /* game13.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9A72A7C5D8600D85CDB /* game13.swift */; };
-		E469E9AA2A7C5D8D00D85CDB /* game14.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9A92A7C5D8D00D85CDB /* game14.swift */; };
+		BDADAE652A7D303A00B1EB41 /* BobcatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE572A7D303A00B1EB41 /* BobcatView.swift */; };
+		BDADAE662A7D303A00B1EB41 /* BobcatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE572A7D303A00B1EB41 /* BobcatView.swift */; };
+		BDADAE672A7D303A00B1EB41 /* BobcatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE572A7D303A00B1EB41 /* BobcatView.swift */; };
+		BDADAE682A7D303A00B1EB41 /* SLFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE582A7D303A00B1EB41 /* SLFView.swift */; };
+		BDADAE692A7D303A00B1EB41 /* SLFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE582A7D303A00B1EB41 /* SLFView.swift */; };
+		BDADAE6A2A7D303A00B1EB41 /* SLFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE582A7D303A00B1EB41 /* SLFView.swift */; };
+		BDADAE6B2A7D303A00B1EB41 /* BeaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE592A7D303A00B1EB41 /* BeaverView.swift */; };
+		BDADAE6C2A7D303A00B1EB41 /* BeaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE592A7D303A00B1EB41 /* BeaverView.swift */; };
+		BDADAE6D2A7D303A00B1EB41 /* BeaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE592A7D303A00B1EB41 /* BeaverView.swift */; };
+		BDADAE6E2A7D303A00B1EB41 /* BeetleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5A2A7D303A00B1EB41 /* BeetleView.swift */; };
+		BDADAE6F2A7D303A00B1EB41 /* BeetleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5A2A7D303A00B1EB41 /* BeetleView.swift */; };
+		BDADAE702A7D303A00B1EB41 /* BeetleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5A2A7D303A00B1EB41 /* BeetleView.swift */; };
+		BDADAE712A7D303A00B1EB41 /* StinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5B2A7D303A00B1EB41 /* StinkView.swift */; };
+		BDADAE722A7D303A00B1EB41 /* StinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5B2A7D303A00B1EB41 /* StinkView.swift */; };
+		BDADAE732A7D303A00B1EB41 /* StinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5B2A7D303A00B1EB41 /* StinkView.swift */; };
+		BDADAE742A7D303A00B1EB41 /* SharkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5C2A7D303A00B1EB41 /* SharkView.swift */; };
+		BDADAE752A7D303A00B1EB41 /* SharkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5C2A7D303A00B1EB41 /* SharkView.swift */; };
+		BDADAE762A7D303A00B1EB41 /* SharkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5C2A7D303A00B1EB41 /* SharkView.swift */; };
+		BDADAE772A7D303A00B1EB41 /* DolphinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5D2A7D303A00B1EB41 /* DolphinView.swift */; };
+		BDADAE782A7D303A00B1EB41 /* DolphinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5D2A7D303A00B1EB41 /* DolphinView.swift */; };
+		BDADAE792A7D303A00B1EB41 /* DolphinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5D2A7D303A00B1EB41 /* DolphinView.swift */; };
+		BDADAE7A2A7D303A00B1EB41 /* RaccoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5E2A7D303A00B1EB41 /* RaccoonView.swift */; };
+		BDADAE7B2A7D303A00B1EB41 /* RaccoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5E2A7D303A00B1EB41 /* RaccoonView.swift */; };
+		BDADAE7C2A7D303A00B1EB41 /* RaccoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5E2A7D303A00B1EB41 /* RaccoonView.swift */; };
+		BDADAE7D2A7D303A00B1EB41 /* MantisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5F2A7D303A00B1EB41 /* MantisView.swift */; };
+		BDADAE7E2A7D303A00B1EB41 /* MantisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5F2A7D303A00B1EB41 /* MantisView.swift */; };
+		BDADAE7F2A7D303A00B1EB41 /* MantisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE5F2A7D303A00B1EB41 /* MantisView.swift */; };
+		BDADAE802A7D303A00B1EB41 /* BlackBearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE602A7D303A00B1EB41 /* BlackBearView.swift */; };
+		BDADAE812A7D303A00B1EB41 /* BlackBearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE602A7D303A00B1EB41 /* BlackBearView.swift */; };
+		BDADAE822A7D303A00B1EB41 /* BlackBearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE602A7D303A00B1EB41 /* BlackBearView.swift */; };
+		BDADAE832A7D303A00B1EB41 /* TickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE612A7D303A00B1EB41 /* TickView.swift */; };
+		BDADAE842A7D303A00B1EB41 /* TickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE612A7D303A00B1EB41 /* TickView.swift */; };
+		BDADAE852A7D303A00B1EB41 /* TickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE612A7D303A00B1EB41 /* TickView.swift */; };
+		BDADAE862A7D303A00B1EB41 /* CottontailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE622A7D303A00B1EB41 /* CottontailView.swift */; };
+		BDADAE872A7D303A00B1EB41 /* CottontailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE622A7D303A00B1EB41 /* CottontailView.swift */; };
+		BDADAE882A7D303A00B1EB41 /* CottontailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE622A7D303A00B1EB41 /* CottontailView.swift */; };
+		BDADAE892A7D303A00B1EB41 /* SkunkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE632A7D303A00B1EB41 /* SkunkView.swift */; };
+		BDADAE8A2A7D303A00B1EB41 /* SkunkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE632A7D303A00B1EB41 /* SkunkView.swift */; };
+		BDADAE8B2A7D303A00B1EB41 /* SkunkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE632A7D303A00B1EB41 /* SkunkView.swift */; };
+		BDADAE8C2A7D303A00B1EB41 /* BrownBatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE642A7D303A00B1EB41 /* BrownBatView.swift */; };
+		BDADAE8D2A7D303A00B1EB41 /* BrownBatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE642A7D303A00B1EB41 /* BrownBatView.swift */; };
+		BDADAE8E2A7D303A00B1EB41 /* BrownBatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE642A7D303A00B1EB41 /* BrownBatView.swift */; };
+		BDADAE902A7D3DB100B1EB41 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE8F2A7D3DB100B1EB41 /* Location.swift */; };
+		BDADAE912A7D3DB100B1EB41 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE8F2A7D3DB100B1EB41 /* Location.swift */; };
+		BDADAE922A7D3DB100B1EB41 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADAE8F2A7D3DB100B1EB41 /* Location.swift */; };
 		E469E9AD2A7C5DB600D85CDB /* game2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9AC2A7C5DB600D85CDB /* game2.swift */; };
 		E469E9AF2A7C5DBB00D85CDB /* game3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9AE2A7C5DBB00D85CDB /* game3.swift */; };
 		E469E9B12A7C5DC000D85CDB /* game4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9B02A7C5DC000D85CDB /* game4.swift */; };
-		E469E9C12A7C697600D85CDB /* BobcatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9B32A7C697600D85CDB /* BobcatView.swift */; };
-		E469E9C22A7C697600D85CDB /* SLFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9B42A7C697600D85CDB /* SLFView.swift */; };
-		E469E9C32A7C697600D85CDB /* BeaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9B52A7C697600D85CDB /* BeaverView.swift */; };
-		E469E9C42A7C697600D85CDB /* BeetleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9B62A7C697600D85CDB /* BeetleView.swift */; };
-		E469E9C52A7C697600D85CDB /* StinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9B72A7C697600D85CDB /* StinkView.swift */; };
-		E469E9C62A7C697600D85CDB /* SharkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9B82A7C697600D85CDB /* SharkView.swift */; };
-		E469E9C72A7C697600D85CDB /* DolphinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9B92A7C697600D85CDB /* DolphinView.swift */; };
-		E469E9C82A7C697600D85CDB /* RaccoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9BA2A7C697600D85CDB /* RaccoonView.swift */; };
-		E469E9C92A7C697600D85CDB /* MantisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9BB2A7C697600D85CDB /* MantisView.swift */; };
-		E469E9CA2A7C697600D85CDB /* BlackBearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9BC2A7C697600D85CDB /* BlackBearView.swift */; };
-		E469E9CB2A7C697600D85CDB /* TickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9BD2A7C697600D85CDB /* TickView.swift */; };
-		E469E9CC2A7C697600D85CDB /* CottontailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9BE2A7C697600D85CDB /* CottontailView.swift */; };
-		E469E9CD2A7C697600D85CDB /* SkunkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9BF2A7C697600D85CDB /* SkunkView.swift */; };
-		E469E9CE2A7C697600D85CDB /* BrownBatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9C02A7C697600D85CDB /* BrownBatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,29 +103,30 @@
 		BD337A902A784025006735DC /* BeewareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeewareUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BD7BF0EC2A7983E70004A88A /* Handbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handbook.swift; sourceTree = "<group>"; };
 		BD7BF0F02A7991A50004A88A /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		BD8EC2842A7D5094007E4DA9 /* game13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = game13.swift; sourceTree = "<group>"; };
+		BD8EC2852A7D5094007E4DA9 /* game11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = game11.swift; sourceTree = "<group>"; };
+		BD8EC2862A7D5094007E4DA9 /* game12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = game12.swift; sourceTree = "<group>"; };
+		BD8EC2872A7D5094007E4DA9 /* game14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = game14.swift; sourceTree = "<group>"; };
+		BD8EC2882A7D5094007E4DA9 /* game1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = game1.swift; sourceTree = "<group>"; };
 		BD9A6BCE2A7ACAA0004D4280 /* mapMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapMap.swift; sourceTree = "<group>"; };
-		E469E9A12A7C5D6F00D85CDB /* game1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game1.swift; sourceTree = "<group>"; };
-		E469E9A32A7C5D7800D85CDB /* game11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game11.swift; sourceTree = "<group>"; };
-		E469E9A52A7C5D7F00D85CDB /* game12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game12.swift; sourceTree = "<group>"; };
-		E469E9A72A7C5D8600D85CDB /* game13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game13.swift; sourceTree = "<group>"; };
-		E469E9A92A7C5D8D00D85CDB /* game14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game14.swift; sourceTree = "<group>"; };
+		BDADAE572A7D303A00B1EB41 /* BobcatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobcatView.swift; sourceTree = "<group>"; };
+		BDADAE582A7D303A00B1EB41 /* SLFView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLFView.swift; sourceTree = "<group>"; };
+		BDADAE592A7D303A00B1EB41 /* BeaverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaverView.swift; sourceTree = "<group>"; };
+		BDADAE5A2A7D303A00B1EB41 /* BeetleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeetleView.swift; sourceTree = "<group>"; };
+		BDADAE5B2A7D303A00B1EB41 /* StinkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StinkView.swift; sourceTree = "<group>"; };
+		BDADAE5C2A7D303A00B1EB41 /* SharkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharkView.swift; sourceTree = "<group>"; };
+		BDADAE5D2A7D303A00B1EB41 /* DolphinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolphinView.swift; sourceTree = "<group>"; };
+		BDADAE5E2A7D303A00B1EB41 /* RaccoonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaccoonView.swift; sourceTree = "<group>"; };
+		BDADAE5F2A7D303A00B1EB41 /* MantisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MantisView.swift; sourceTree = "<group>"; };
+		BDADAE602A7D303A00B1EB41 /* BlackBearView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackBearView.swift; sourceTree = "<group>"; };
+		BDADAE612A7D303A00B1EB41 /* TickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickView.swift; sourceTree = "<group>"; };
+		BDADAE622A7D303A00B1EB41 /* CottontailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CottontailView.swift; sourceTree = "<group>"; };
+		BDADAE632A7D303A00B1EB41 /* SkunkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkunkView.swift; sourceTree = "<group>"; };
+		BDADAE642A7D303A00B1EB41 /* BrownBatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrownBatView.swift; sourceTree = "<group>"; };
+		BDADAE8F2A7D3DB100B1EB41 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		E469E9AC2A7C5DB600D85CDB /* game2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game2.swift; sourceTree = "<group>"; };
 		E469E9AE2A7C5DBB00D85CDB /* game3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game3.swift; sourceTree = "<group>"; };
 		E469E9B02A7C5DC000D85CDB /* game4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game4.swift; sourceTree = "<group>"; };
-		E469E9B32A7C697600D85CDB /* BobcatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobcatView.swift; sourceTree = "<group>"; };
-		E469E9B42A7C697600D85CDB /* SLFView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLFView.swift; sourceTree = "<group>"; };
-		E469E9B52A7C697600D85CDB /* BeaverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaverView.swift; sourceTree = "<group>"; };
-		E469E9B62A7C697600D85CDB /* BeetleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeetleView.swift; sourceTree = "<group>"; };
-		E469E9B72A7C697600D85CDB /* StinkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StinkView.swift; sourceTree = "<group>"; };
-		E469E9B82A7C697600D85CDB /* SharkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharkView.swift; sourceTree = "<group>"; };
-		E469E9B92A7C697600D85CDB /* DolphinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolphinView.swift; sourceTree = "<group>"; };
-		E469E9BA2A7C697600D85CDB /* RaccoonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaccoonView.swift; sourceTree = "<group>"; };
-		E469E9BB2A7C697600D85CDB /* MantisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MantisView.swift; sourceTree = "<group>"; };
-		E469E9BC2A7C697600D85CDB /* BlackBearView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackBearView.swift; sourceTree = "<group>"; };
-		E469E9BD2A7C697600D85CDB /* TickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickView.swift; sourceTree = "<group>"; };
-		E469E9BE2A7C697600D85CDB /* CottontailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CottontailView.swift; sourceTree = "<group>"; };
-		E469E9BF2A7C697600D85CDB /* SkunkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkunkView.swift; sourceTree = "<group>"; };
-		E469E9C02A7C697600D85CDB /* BrownBatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrownBatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,8 +180,9 @@
 				BD337A722A784023006735DC /* BeewareApp.swift */,
 				BD337A742A784023006735DC /* ContentView.swift */,
 				BD7BF0EC2A7983E70004A88A /* Handbook.swift */,
-				E469E9B22A7C697600D85CDB /* profileHandbook */,
+				BDADAE562A7D303A00B1EB41 /* profileHandbooks */,
 				BD9A6BCE2A7ACAA0004D4280 /* mapMap.swift */,
+				BDADAE8F2A7D3DB100B1EB41 /* Location.swift */,
 				BD7BF0F02A7991A50004A88A /* Games.swift */,
 				E469E9A02A7C5D5700D85CDB /* gameFiles */,
 				BD337A762A784024006735DC /* Assets.xcassets */,
@@ -184,49 +217,48 @@
 			path = BeewareUITests;
 			sourceTree = "<group>";
 		};
+		BD8EC2832A7D5094007E4DA9 /* 1GameP */ = {
+			isa = PBXGroup;
+			children = (
+				BD8EC2882A7D5094007E4DA9 /* game1.swift */,
+				BD8EC2852A7D5094007E4DA9 /* game11.swift */,
+				BD8EC2862A7D5094007E4DA9 /* game12.swift */,
+				BD8EC2842A7D5094007E4DA9 /* game13.swift */,
+				BD8EC2872A7D5094007E4DA9 /* game14.swift */,
+			);
+			path = 1GameP;
+			sourceTree = "<group>";
+		};
+		BDADAE562A7D303A00B1EB41 /* profileHandbooks */ = {
+			isa = PBXGroup;
+			children = (
+				BDADAE572A7D303A00B1EB41 /* BobcatView.swift */,
+				BDADAE582A7D303A00B1EB41 /* SLFView.swift */,
+				BDADAE592A7D303A00B1EB41 /* BeaverView.swift */,
+				BDADAE5A2A7D303A00B1EB41 /* BeetleView.swift */,
+				BDADAE5B2A7D303A00B1EB41 /* StinkView.swift */,
+				BDADAE5C2A7D303A00B1EB41 /* SharkView.swift */,
+				BDADAE5D2A7D303A00B1EB41 /* DolphinView.swift */,
+				BDADAE5E2A7D303A00B1EB41 /* RaccoonView.swift */,
+				BDADAE5F2A7D303A00B1EB41 /* MantisView.swift */,
+				BDADAE602A7D303A00B1EB41 /* BlackBearView.swift */,
+				BDADAE612A7D303A00B1EB41 /* TickView.swift */,
+				BDADAE622A7D303A00B1EB41 /* CottontailView.swift */,
+				BDADAE632A7D303A00B1EB41 /* SkunkView.swift */,
+				BDADAE642A7D303A00B1EB41 /* BrownBatView.swift */,
+			);
+			path = profileHandbooks;
+			sourceTree = "<group>";
+		};
 		E469E9A02A7C5D5700D85CDB /* gameFiles */ = {
 			isa = PBXGroup;
 			children = (
-				E469E9AB2A7C5D9800D85CDB /* 1GameP */,
+				BD8EC2832A7D5094007E4DA9 /* 1GameP */,
 				E469E9AC2A7C5DB600D85CDB /* game2.swift */,
 				E469E9AE2A7C5DBB00D85CDB /* game3.swift */,
 				E469E9B02A7C5DC000D85CDB /* game4.swift */,
 			);
 			path = gameFiles;
-			sourceTree = "<group>";
-		};
-		E469E9AB2A7C5D9800D85CDB /* 1GameP */ = {
-			isa = PBXGroup;
-			children = (
-				E469E9A12A7C5D6F00D85CDB /* game1.swift */,
-				E469E9A32A7C5D7800D85CDB /* game11.swift */,
-				E469E9A52A7C5D7F00D85CDB /* game12.swift */,
-				E469E9A72A7C5D8600D85CDB /* game13.swift */,
-				E469E9A92A7C5D8D00D85CDB /* game14.swift */,
-			);
-			path = 1GameP;
-			sourceTree = "<group>";
-		};
-		E469E9B22A7C697600D85CDB /* profileHandbook */ = {
-			isa = PBXGroup;
-			children = (
-				E469E9B32A7C697600D85CDB /* BobcatView.swift */,
-				E469E9B42A7C697600D85CDB /* SLFView.swift */,
-				E469E9B52A7C697600D85CDB /* BeaverView.swift */,
-				E469E9B62A7C697600D85CDB /* BeetleView.swift */,
-				E469E9B72A7C697600D85CDB /* StinkView.swift */,
-				E469E9B82A7C697600D85CDB /* SharkView.swift */,
-				E469E9B92A7C697600D85CDB /* DolphinView.swift */,
-				E469E9BA2A7C697600D85CDB /* RaccoonView.swift */,
-				E469E9BB2A7C697600D85CDB /* MantisView.swift */,
-				E469E9BC2A7C697600D85CDB /* BlackBearView.swift */,
-				E469E9BD2A7C697600D85CDB /* TickView.swift */,
-				E469E9BE2A7C697600D85CDB /* CottontailView.swift */,
-				E469E9BF2A7C697600D85CDB /* SkunkView.swift */,
-				E469E9C02A7C697600D85CDB /* BrownBatView.swift */,
-			);
-			name = profileHandbook;
-			path = ../../Beeware2/Beeware/profileHandbook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,33 +391,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E469E9C62A7C697600D85CDB /* SharkView.swift in Sources */,
+				BDADAE802A7D303A00B1EB41 /* BlackBearView.swift in Sources */,
+				BDADAE6B2A7D303A00B1EB41 /* BeaverView.swift in Sources */,
+				BDADAE652A7D303A00B1EB41 /* BobcatView.swift in Sources */,
 				BD337A752A784023006735DC /* ContentView.swift in Sources */,
 				BD337A732A784023006735DC /* BeewareApp.swift in Sources */,
 				E469E9AF2A7C5DBB00D85CDB /* game3.swift in Sources */,
-				E469E9CD2A7C697600D85CDB /* SkunkView.swift in Sources */,
-				E469E9C72A7C697600D85CDB /* DolphinView.swift in Sources */,
-				E469E9A82A7C5D8600D85CDB /* game13.swift in Sources */,
-				E469E9CE2A7C697600D85CDB /* BrownBatView.swift in Sources */,
-				E469E9A42A7C5D7800D85CDB /* game11.swift in Sources */,
-				E469E9C92A7C697600D85CDB /* MantisView.swift in Sources */,
-				E469E9A22A7C5D6F00D85CDB /* game1.swift in Sources */,
+				BD8EC28C2A7D5094007E4DA9 /* game14.swift in Sources */,
+				BDADAE902A7D3DB100B1EB41 /* Location.swift in Sources */,
+				BDADAE742A7D303A00B1EB41 /* SharkView.swift in Sources */,
+				BDADAE7D2A7D303A00B1EB41 /* MantisView.swift in Sources */,
 				E469E9B12A7C5DC000D85CDB /* game4.swift in Sources */,
-				E469E9CB2A7C697600D85CDB /* TickView.swift in Sources */,
+				BD8EC28D2A7D5094007E4DA9 /* game1.swift in Sources */,
+				BDADAE712A7D303A00B1EB41 /* StinkView.swift in Sources */,
+				BDADAE682A7D303A00B1EB41 /* SLFView.swift in Sources */,
 				BD9A6BCF2A7ACAA0004D4280 /* mapMap.swift in Sources */,
-				E469E9C82A7C697600D85CDB /* RaccoonView.swift in Sources */,
+				BDADAE862A7D303A00B1EB41 /* CottontailView.swift in Sources */,
+				BDADAE6E2A7D303A00B1EB41 /* BeetleView.swift in Sources */,
 				BD7BF0F12A7991A50004A88A /* Games.swift in Sources */,
-				E469E9C42A7C697600D85CDB /* BeetleView.swift in Sources */,
-				E469E9C32A7C697600D85CDB /* BeaverView.swift in Sources */,
-				E469E9A62A7C5D7F00D85CDB /* game12.swift in Sources */,
-				E469E9AA2A7C5D8D00D85CDB /* game14.swift in Sources */,
-				E469E9C22A7C697600D85CDB /* SLFView.swift in Sources */,
+				BDADAE892A7D303A00B1EB41 /* SkunkView.swift in Sources */,
+				BD8EC28B2A7D5094007E4DA9 /* game12.swift in Sources */,
+				BDADAE7A2A7D303A00B1EB41 /* RaccoonView.swift in Sources */,
+				BD8EC28A2A7D5094007E4DA9 /* game11.swift in Sources */,
 				BD7BF0ED2A7983E70004A88A /* Handbook.swift in Sources */,
-				E469E9CA2A7C697600D85CDB /* BlackBearView.swift in Sources */,
 				E469E9AD2A7C5DB600D85CDB /* game2.swift in Sources */,
-				E469E9C52A7C697600D85CDB /* StinkView.swift in Sources */,
-				E469E9C12A7C697600D85CDB /* BobcatView.swift in Sources */,
-				E469E9CC2A7C697600D85CDB /* CottontailView.swift in Sources */,
+				BD8EC2892A7D5094007E4DA9 /* game13.swift in Sources */,
+				BDADAE772A7D303A00B1EB41 /* DolphinView.swift in Sources */,
+				BDADAE8C2A7D303A00B1EB41 /* BrownBatView.swift in Sources */,
+				BDADAE832A7D303A00B1EB41 /* TickView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +427,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD337A852A784025006735DC /* BeewareTests.swift in Sources */,
+				BDADAE812A7D303A00B1EB41 /* BlackBearView.swift in Sources */,
+				BDADAE912A7D3DB100B1EB41 /* Location.swift in Sources */,
+				BDADAE692A7D303A00B1EB41 /* SLFView.swift in Sources */,
+				BDADAE722A7D303A00B1EB41 /* StinkView.swift in Sources */,
+				BDADAE662A7D303A00B1EB41 /* BobcatView.swift in Sources */,
+				BDADAE6F2A7D303A00B1EB41 /* BeetleView.swift in Sources */,
+				BDADAE782A7D303A00B1EB41 /* DolphinView.swift in Sources */,
+				BDADAE7E2A7D303A00B1EB41 /* MantisView.swift in Sources */,
+				BDADAE872A7D303A00B1EB41 /* CottontailView.swift in Sources */,
+				BDADAE8D2A7D303A00B1EB41 /* BrownBatView.swift in Sources */,
+				BDADAE7B2A7D303A00B1EB41 /* RaccoonView.swift in Sources */,
+				BDADAE6C2A7D303A00B1EB41 /* BeaverView.swift in Sources */,
+				BDADAE752A7D303A00B1EB41 /* SharkView.swift in Sources */,
+				BDADAE842A7D303A00B1EB41 /* TickView.swift in Sources */,
+				BDADAE8A2A7D303A00B1EB41 /* SkunkView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,8 +449,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDADAE6A2A7D303A00B1EB41 /* SLFView.swift in Sources */,
+				BDADAE6D2A7D303A00B1EB41 /* BeaverView.swift in Sources */,
+				BDADAE792A7D303A00B1EB41 /* DolphinView.swift in Sources */,
 				BD337A912A784025006735DC /* BeewareUITestsLaunchTests.swift in Sources */,
+				BDADAE822A7D303A00B1EB41 /* BlackBearView.swift in Sources */,
+				BDADAE922A7D3DB100B1EB41 /* Location.swift in Sources */,
+				BDADAE8B2A7D303A00B1EB41 /* SkunkView.swift in Sources */,
 				BD337A8F2A784025006735DC /* BeewareUITests.swift in Sources */,
+				BDADAE8E2A7D303A00B1EB41 /* BrownBatView.swift in Sources */,
+				BDADAE672A7D303A00B1EB41 /* BobcatView.swift in Sources */,
+				BDADAE7C2A7D303A00B1EB41 /* RaccoonView.swift in Sources */,
+				BDADAE7F2A7D303A00B1EB41 /* MantisView.swift in Sources */,
+				BDADAE882A7D303A00B1EB41 /* CottontailView.swift in Sources */,
+				BDADAE702A7D303A00B1EB41 /* BeetleView.swift in Sources */,
+				BDADAE762A7D303A00B1EB41 /* SharkView.swift in Sources */,
+				BDADAE852A7D303A00B1EB41 /* TickView.swift in Sources */,
+				BDADAE732A7D303A00B1EB41 /* StinkView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
