@@ -11,7 +11,6 @@ struct Handbook: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                
                 Image("Sand")
                     .resizable(resizingMode: .stretch)
                     .ignoresSafeArea()
