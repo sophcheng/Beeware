@@ -12,6 +12,12 @@ struct BeewareApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                                    UINavigationBar.appearance().backIndicatorImage = UIImage(systemName: "arrow.backward")
+
+                                    UINavigationBar.appearance().backIndicatorTransitionMaskImage = UIImage(systemName: "arrow.backward")
+
+                                }
         }
     }
 }

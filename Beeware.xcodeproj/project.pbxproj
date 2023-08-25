@@ -70,6 +70,7 @@
 		E469E9AD2A7C5DB600D85CDB /* game2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9AC2A7C5DB600D85CDB /* game2.swift */; };
 		E469E9AF2A7C5DBB00D85CDB /* game3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9AE2A7C5DBB00D85CDB /* game3.swift */; };
 		E469E9B12A7C5DC000D85CDB /* game4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469E9B02A7C5DC000D85CDB /* game4.swift */; };
+		E4D160CF2A992DBB00DFE903 /* THandbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D160CE2A992DBB00DFE903 /* THandbook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +128,7 @@
 		E469E9AC2A7C5DB600D85CDB /* game2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game2.swift; sourceTree = "<group>"; };
 		E469E9AE2A7C5DBB00D85CDB /* game3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game3.swift; sourceTree = "<group>"; };
 		E469E9B02A7C5DC000D85CDB /* game4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game4.swift; sourceTree = "<group>"; };
+		E4D160CE2A992DBB00DFE903 /* THandbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THandbook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +181,7 @@
 			children = (
 				BD337A722A784023006735DC /* BeewareApp.swift */,
 				BD337A742A784023006735DC /* ContentView.swift */,
-				BD7BF0EC2A7983E70004A88A /* Handbook.swift */,
+				E4D160CE2A992DBB00DFE903 /* THandbook.swift */,
 				BDADAE562A7D303A00B1EB41 /* profileHandbooks */,
 				BD9A6BCE2A7ACAA0004D4280 /* mapMap.swift */,
 				BDADAE8F2A7D3DB100B1EB41 /* Location.swift */,
@@ -195,6 +197,7 @@
 		BD337A792A784024006735DC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				BD7BF0EC2A7983E70004A88A /* Handbook.swift */,
 				BD337A7A2A784024006735DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -393,6 +396,7 @@
 			files = (
 				BDADAE802A7D303A00B1EB41 /* BlackBearView.swift in Sources */,
 				BDADAE6B2A7D303A00B1EB41 /* BeaverView.swift in Sources */,
+				E4D160CF2A992DBB00DFE903 /* THandbook.swift in Sources */,
 				BDADAE652A7D303A00B1EB41 /* BobcatView.swift in Sources */,
 				BD337A752A784023006735DC /* ContentView.swift in Sources */,
 				BD337A732A784023006735DC /* BeewareApp.swift in Sources */,
@@ -603,6 +607,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Beeware/Preview Content\"";
+				DEVELOPMENT_TEAM = 2C33P4G522;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -620,7 +625,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = KWK.Beeware;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sophie-Cheng.Beeware";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -639,6 +644,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Beeware/Preview Content\"";
+				DEVELOPMENT_TEAM = 2C33P4G522;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -656,7 +662,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = KWK.Beeware;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sophie-Cheng.Beeware";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
